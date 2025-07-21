@@ -1,7 +1,8 @@
 services:
   scp_5k:
-    build:
-      context: .
+    #build:
+      #context: .
+      #dockerfile: Dockerfile
     image: scp_5k:latest
     container_name: scp_5k
     restart: unless-stopped

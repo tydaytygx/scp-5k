@@ -8,7 +8,7 @@ Scp:5k dedicated server in docker
 ## Build image
 
 ```
-docker build -t scp_5k .
+docker build -t scp-5k .
 ```
 
 ## Create diretory before bring up docker compose

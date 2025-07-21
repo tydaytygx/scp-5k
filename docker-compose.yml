@@ -1,10 +1,10 @@
 services:
-  scp_5k:
+  scp-5k:
     #build:
       #context: .
       #dockerfile: Dockerfile
-    image: scp_5k:latest
-    container_name: scp_5k
+    image: scp-5k:latest
+    container_name: scp-5k
     restart: unless-stopped
     user: 1000:1000
     volumes:

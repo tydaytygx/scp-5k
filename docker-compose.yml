@@ -1,0 +1,12 @@
+services:
+  se-server:
+    build: .
+    image: scp_5k:latest
+    container_name: scp_5k
+    restart: unless-stopped
+    user: 1000:1000
+    volumes:
+      - ./data:/app/data
+    ports:
+      - 27015:27015/udp
+      - 7777:7777/udp

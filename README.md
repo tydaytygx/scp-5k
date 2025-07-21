@@ -1,4 +1,4 @@
-# SCP:5K
+# SCP: 5K
 Scp:5k dedicated server in docker
 
 ![](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/872670/header.jpg?t=1741676893)
